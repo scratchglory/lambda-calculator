@@ -21,28 +21,53 @@
   font-size: 5rem;
 }
 button {
-  /* height: 35%;
-  width: 15%; */
-  padding: 5% 7%;
+  height: 100px;
+  max-width: 100px;
+  width: 33.33%;
   margin: 2%;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 45px;
   border: none;
-  font-weight: bold;
+  font-weight: 400;
   color: floralwhite;
-  box-shadow: 4px 0px 6px 0px #65656e;
+  box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .section {
   margin: 5%;
 }
 
+.App {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.stuff {
+  width: 75%;
+}
+
 .special button {
   background-color: rgb(11, 93, 155);
 }
+
 .numbers button {
+  width: 33.33%;
   background-color: rgb(9, 67, 119);
 }
 .operators button {
   background-color: rgb(0, 114, 145);
+  width: 100%;
+  max-width: 100px;
+  height: 100px;
+  margin: 5% 0;
+  margin-left: auto;
+}
+
+.operators {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
